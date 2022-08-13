@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ghazasaracenter</string>
+    <string name="esm_farsi">غذا سنتر</string>
+    <string name="search_hint">جست و جوی غذای مورد نظر شما....</string>
+    <string name="nameghaza_vared">لطفا اطلاعات غذای مورد نظرتان را وارد نمایید</string>
+    <string name="hazft_item">آیا مطمئن هستید که آیتم زیر حذف شود؟</string>
+</resources>

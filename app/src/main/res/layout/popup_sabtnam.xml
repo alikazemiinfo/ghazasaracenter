@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    android:layout_margin="20dp"
+    android:padding="30dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal|center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--    <TextView-->
+    <!--        android:text=" سلام متن فرگمنت اول"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="36sp"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:focusable="true"
+        android:focusedByDefault="true"
+        app:errorEnabled="true"
+        app:errorTextColor="#DD0F0F"
+        android:id="@+id/name_namayeshi"
+        app:boxStrokeColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="لطفا نام خود را وارد نمایید"
+        app:hintTextColor="#6C6C6C"
+        android:layoutDirection="rtl"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:focusedByDefault="true"
+            android:focusable="true"
+            android:textSize="18sp"
+            android:id="@+id/edt_vorodi_name_infrag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:targetApi="o" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:errorEnabled="true"
+        app:errorTextColor="#DD0F0F"
+        android:id="@+id/lastname_namayeshi"
+        app:boxStrokeColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="لطفا نام خانوادگی خود را وارد نمایید"
+        app:hintTextColor="#6C6C6C"
+        android:layoutDirection="rtl"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:textSize="18sp"
+            android:id="@+id/edt_vorodi_namekhanevadegi_infrag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:errorEnabled="true"
+        app:errorTextColor="#DD0F0F"
+        android:id="@+id/etebar_namayeshi"
+        app:boxStrokeColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="میزان اعتبار به تومان"
+        app:hintTextColor="#6C6C6C"
+        android:layoutDirection="rtl"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="number"
+            android:textSize="18sp"
+            android:id="@+id/edt_etebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_weight="1"
+            android:id="@+id/btn_cancel_fragdialog"
+            android:layout_marginEnd="30dp"
+            app:cornerRadius="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="80dp"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:backgroundTint="#CA0D0D"
+            android:textColor="#FFF"
+            android:text="لغو"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:id="@+id/btn_taid_fragdialog"
+            android:layout_marginEnd="30dp"
+            app:cornerRadius="30dp"
+
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"
+            android:backgroundTint="#66BB6A"
+            android:textColor="#FFF"
+            android:text="ثبت نام"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <!--قاب دوم برای فرگمنت دوم-->
+    <!--    <FrameLayout-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_marginEnd="20dp"-->
+    <!--        android:layout_marginStart="20dp"-->
+    <!--        android:id="@+id/load_frag2_box_infragaval"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="400dp"/>-->
+
+
+
+
+</LinearLayout>

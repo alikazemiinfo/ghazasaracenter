@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:fontFamily="@font/yekan1"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:textSize="@dimen/size_H3"
+            android:textColor="?attr/colorOnSecondary"
+            android:text="@string/nameghaza_vared"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/txt_nameghaza_error"
+
+            android:layoutDirection="rtl"
+            app:boxStrokeErrorColor="@color/red"
+            app:endIconMode="clear_text"
+            app:endIconDrawable="@drawable/ic_outline_delete_forever_24"
+            android:hint="لطفا نام غذای خود را وارد نمایید"
+            android:textColorHint="?attr/colorOnSurface"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/voroid_edt_nameghaza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layoutDirection="rtl"
+            app:boxStrokeErrorColor="@color/red"
+            app:endIconMode="clear_text"
+            app:endIconDrawable="@drawable/ic_outline_delete_forever_24"
+            android:id="@+id/txt_namforoshande_error"
+            android:hint="لطفا نام رستوران خود را وارد نمایید"
+            android:textColorHint="?attr/colorOnSurface"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/voroid_edt_nameforoshande"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_gheymatghaza_error"
+            android:layoutDirection="rtl"
+            app:boxStrokeErrorColor="@color/red"
+            app:endIconMode="clear_text"
+            app:endIconDrawable="@drawable/ic_outline_delete_forever_24"
+            android:hint="لطفا قیمت غذای خود به تومان را وارد نمایید"
+            android:textColorHint="?attr/colorOnSurface"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:inputType="number"
+                android:id="@+id/voroid_edt_gheymatghaza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_fasele_error"
+            android:layoutDirection="rtl"
+            app:boxStrokeErrorColor="@color/red"
+            app:endIconMode="clear_text"
+            app:endIconDrawable="@drawable/ic_outline_delete_forever_24"
+            android:hint="لطفا فاصله پیک خود را بر اساس کلیومتر وارد نمایید"
+            android:textColorHint="?attr/colorOnSurface"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:inputType="number"
+                android:id="@+id/voroid_edt_fasele"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_emtiaz_error"
+            android:layoutDirection="rtl"
+            app:boxStrokeErrorColor="@color/red"
+            app:endIconMode="clear_text"
+            app:endIconDrawable="@drawable/ic_outline_delete_forever_24"
+            android:hint="لطفا امتیاز غذای خود را به حرف وارد نمایید"
+            android:textColorHint="?attr/colorOnSurface"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/voroid_edt_emtizharf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+
+            android:layout_marginEnd="30dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/btn_laghv_update"
+            android:fontFamily="@font/yekan1"
+            android:textSize="@dimen/size_H3"
+            android:background="@drawable/shape_ezafeshod"
+            android:textColor="?attr/colorOnPrimary"
+            app:iconPadding="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="لغو"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+
+                android:layout_marginStart="20dp"
+                android:id="@+id/btn_sabt_addfood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_ezafeshod"
+                android:fontFamily="@font/yekan1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="به روز رسانی اطلاعات"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="@dimen/size_H3"
+                app:iconPadding="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
