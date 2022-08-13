@@ -77,7 +77,7 @@ class NetworkChecker (private val context: Context){
                         Toast.makeText(context, "شما به وای فای وصل هستید", Toast.LENGTH_SHORT).show()
                         true
                     }
-
+//s
 
                     myNetwork.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> {
                         Toast.makeText(context, "شما به اینترنت سیم کارت وصل هستید", Toast.LENGTH_SHORT).show()

@@ -25,7 +25,7 @@ class Myadaptor(private val data: ArrayList<khodghaza>,private val karhayghaza: 
 
 
 
-
+//s
 
         fun Putingdata(position: Int) {
             binding.itemTxtTitle.text = data[position].txttitlee

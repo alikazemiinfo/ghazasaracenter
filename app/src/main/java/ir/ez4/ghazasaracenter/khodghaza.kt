@@ -10,7 +10,7 @@ data class khodghaza (
     val rating:Float,
     val txtnumrating:String,
     val Urlaks:String
-
+//s
 
         ) {
 }

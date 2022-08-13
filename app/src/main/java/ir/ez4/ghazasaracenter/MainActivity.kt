@@ -481,7 +481,7 @@ myadaptor.setdata(listghaza.clone() as ArrayList<khodghaza>)
 
     }
 
-
+//s
 
 
 }

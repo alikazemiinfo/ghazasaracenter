@@ -45,7 +45,7 @@ class MainDialog(private val mainDialogeven: MainDialogeven):BottomSheetDialogFr
 
                     binding.nameNamayeshi.isErrorEnabled=false
                 }
-
+//s
                 if (familyname.isEmpty()){
 
                     binding.lastnameNamayeshi.isErrorEnabled=true
